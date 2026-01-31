@@ -1,0 +1,1 @@
+/Users/atking/emsdk/upstream/emscripten/emcc -O3 -DNDEBUG @CMakeFiles/zfpcmd.dir/objects1.rsp -o ../bin/zfp.js @CMakeFiles/zfpcmd.dir/linkLibs.rsp

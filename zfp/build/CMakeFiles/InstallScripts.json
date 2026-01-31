@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/atking/wasm-zfp/zfp/build/cmake_install.cmake",
+		"/Users/atking/wasm-zfp/zfp/build/src/cmake_install.cmake",
+		"/Users/atking/wasm-zfp/zfp/build/utils/cmake_install.cmake",
+		"/Users/atking/wasm-zfp/zfp/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

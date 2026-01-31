@@ -3,6 +3,8 @@
 emcc \
   /zfp/build/lib/libzfp.a -o dist/wasm-zfp.js src/wasm-zfp.c `# this runs emscripten on the code in wasm-zfp.c` \
   -O3 `# compile with all optimizations enabled` \
+  -s SINGLE_FILE=1 \
+  -s EXPORT_ES6=1 \
   -msimd128 `# enable SIMD support` \
   -flto `# enable link-time optimization` \
   -I /zfp/include `# add the zfp include directory` \

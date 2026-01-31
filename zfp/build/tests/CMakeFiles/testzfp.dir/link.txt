@@ -1,0 +1,1 @@
+/Users/atking/emsdk/upstream/emscripten/em++ -O3 -DNDEBUG @CMakeFiles/testzfp.dir/objects1.rsp -o ../bin/testzfp.js @CMakeFiles/testzfp.dir/linkLibs.rsp
